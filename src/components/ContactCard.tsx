@@ -1,15 +1,8 @@
 'use client';
 
+import { Contact } from '@prisma/client';
+import Link from 'next/link';
 import { Card, Image } from 'react-bootstrap';
-
-// Define the Contact type
-type Contact = {
-  image: string;
-  firstName: string;
-  lastName: string;
-  address: string;
-  description: string;
-};
 
 /* Renders a single contact. See list/page.tsx. */
 const ContactCard = ({ contact }: { contact: Contact }) => (
@@ -26,6 +19,9 @@ const ContactCard = ({ contact }: { contact: Contact }) => (
     <Card.Body>
       <Card.Text>{contact.description}</Card.Text>
     </Card.Body>
+    <Card.Footer>
+      <Link href={`edit/${contact.id}`}>Edit</Link>
+    </Card.Footer>
   </Card>
 );
 
