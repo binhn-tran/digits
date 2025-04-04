@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+
 'use client';
 
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
