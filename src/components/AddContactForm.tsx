@@ -7,8 +7,8 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import swal from 'sweetalert';
 import { redirect } from 'next/navigation';
 import { AddContactSchema } from '@/lib/validationSchemas';
-import LoadingSpinner from './LoadingSpinner';
 import { addContact } from '@/lib/dbActions';
+import LoadingSpinner from './LoadingSpinner';
 
 const onSubmit = async (
   data: {

@@ -56,6 +56,17 @@ export async function addContact(contact: {
   redirect('/list');
 }
 
+export async function addNote(note: { note: string; owner: string; contactId: number }) {
+  await prisma.note.create({
+    data: {
+      note: note.note,
+      owner: note.owner,
+      contactId: note.contactId,
+    },
+  });
+  redirect('/list');
+}
+
 /**
  * Edits an existing stuff in the database.
  * @param contact an object with the following properties: id, firstName, lastName, address, image, description, owner.
