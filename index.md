@@ -1,6 +1,12 @@
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/landing-page.png)
+<img src="doc/landing.png">
 
-nextjs-application-template is a sample Next.js 14 application that illustrates:
+# Digits Application
+
+Digits is an application that allows users to:
+
+- Register an account.
+- Create and manage a set of contacts.
+- Add a set of timestamped notes regarding their interactions with each contact.
 
 - A standard directory layout using 'src/' as recommended in the [Next.js Project Structure](https://nextjs.org/docs/getting-started/project-structure) guide.
 - [Bootstrap 5 React](https://react-bootstrap.github.io/) for user interface.
