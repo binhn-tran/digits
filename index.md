@@ -169,7 +169,7 @@ After clicking on the "Edit" link associated with a contact, this page displays 
 
 <img src="doc/editcontact-page.png">
 
-#### Admin page (list all users stuff)
+#### Admin page (list all users contacts)
 
 To provide a simple example of a "super power" for Admin users, the Admin page lists all of the contacts by all of the users:
 
