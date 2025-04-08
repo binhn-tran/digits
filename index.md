@@ -1,3 +1,5 @@
+## Digits
+
 <img src="doc/home-page.png">
 
 
@@ -5,7 +7,7 @@ Digits is an application that allows users to:
 
 - Register an account.
 - Create and manage a set of contacts.
-= Add a set of timestamped notes regarding their interactions with each contact.
+- Add a set of timestamped notes regarding their interactions with each contact.
 
 
 ## Installation
