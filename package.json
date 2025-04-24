@@ -30,6 +30,7 @@
     "react-hook-form": "^7.52.0",
     "styled-jsx": "^5.1.6",
     "sweetalert": "^2.1.2",
+    "wide-align": "^1.1.5",
     "yup": "^1.4.0"
   },
   "devDependencies": {
